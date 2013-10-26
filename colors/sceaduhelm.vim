@@ -41,10 +41,10 @@ hi PmenuSel     ctermfg=255     ctermbg=67      cterm=none      guifg=#eeeeee   
 hi PmenuSbar    ctermfg=none    ctermbg=236     cterm=none      guifg=NONE      guibg=#303030   gui=none
 hi PmenuThumb   ctermfg=none    ctermbg=252     cterm=none      guifg=NONE      guibg=#d0d0d0   gui=none
 hi WildMenu     ctermfg=232     ctermbg=221     cterm=none      guifg=#080808   guibg=#ffdf5f   gui=none
-hi SpellBad     ctermfg=234     ctermbg=202     cterm=undercurl guifg=#1c1c1c   guibg=#ff5f00   gui=undercurl guisp=#e0e0e0
-hi SpellCap     ctermfg=234     ctermbg=221     cterm=undercurl guifg=#1c1c1c   guibg=#ffdf5f   gui=undercurl guisp=#e0e0e0
-hi SpellRare    ctermfg=234     ctermbg=67      cterm=undercurl guifg=#1c1c1c   guibg=#5f87af   gui=undercurl guisp=#e0e0e0
-hi SpellLocal   ctermfg=234     ctermbg=60      cterm=undercurl guifg=#1c1c1c   guibg=#5f5f87   gui=undercurl guisp=#e0e0e0
+hi SpellBad     ctermfg=234     ctermbg=202     cterm=undercurl guifg=#1c1c1c   guibg=#ff5f00   gui=undercurl guisp=#1c1c1c
+hi SpellCap     ctermfg=234     ctermbg=221     cterm=undercurl guifg=#1c1c1c   guibg=#ffdf5f   gui=undercurl guisp=#1c1c1c
+hi SpellRare    ctermfg=234     ctermbg=67      cterm=undercurl guifg=#1c1c1c   guibg=#5f87af   gui=undercurl guisp=#1c1c1c
+hi SpellLocal   ctermfg=234     ctermbg=60      cterm=undercurl guifg=#1c1c1c   guibg=#5f5f87   gui=undercurl guisp=#1c1c1c
 
 " Diff highlighting
 hi DiffAdd      ctermfg=234     ctermbg=67      cterm=none      guifg=#1c1c1c   guibg=#5f87af   gui=none
