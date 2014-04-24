@@ -48,7 +48,7 @@ hi SpellLocal   ctermfg=234     ctermbg=60      cterm=undercurl guifg=#1c1c1c   
 
 " Diff highlighting
 hi DiffAdd      ctermfg=234     ctermbg=67      cterm=none      guifg=#1c1c1c   guibg=#5f87af   gui=none
-hi DiffDelete   ctermfg=234     ctermbg=107     cterm=none      guifg=#87af5f   guibg=#af5f00   gui=none
+hi DiffDelete   ctermfg=234     ctermbg=107     cterm=none      guifg=#1c1c1c   guibg=#87af5f   gui=none
 hi DiffChange   ctermfg=234     ctermbg=60      cterm=none      guifg=#1c1c1c   guibg=#5f5f87   gui=none
 hi DiffText     ctermfg=255     ctermbg=60      cterm=none      guifg=#eeeeee   guibg=#5f5f87   gui=none
 
