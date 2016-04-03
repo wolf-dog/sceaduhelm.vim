@@ -6,7 +6,7 @@ Designed for 256-color terminal emulaters, and also works well on gui version.
 
 ## Screenshot
 
-![](http://lupus.mydns.jp/assets/media/sceaduhelm_vim_php.png)
+![](http://to-mega-therion.net/assets/media/sceaduhelm_vim_php.png)
 
 ## Installation
 
