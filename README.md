@@ -13,8 +13,3 @@ Designed for 256-color terminal emulaters, and also works well on gui version.
 Copy sceaduhelm.vim to your .vim/colors directory, then do
 
     :colorscheme sceaduhelm
-
-## Licence
-
-MIT Licence.
-
