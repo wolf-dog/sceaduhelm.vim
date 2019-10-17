@@ -11,8 +11,13 @@ if exists('syntax_on')
 endif
 let g:colors_name = 'sceaduhelm'
 
+if exists('g:sceaduhelm_transparent_bg') && g:sceaduhelm_transparent_bg == 1
+    hi Normal   ctermfg=252  ctermbg=none cterm=none      guifg=#d0d0d0 guibg=none    gui=none
+else
+    hi Normal   ctermfg=252  ctermbg=233  cterm=none      guifg=#d0d0d0 guibg=#121212 gui=none
+endif
+
 " General colors
-hi Normal       ctermfg=252  ctermbg=233  cterm=none      guifg=#d0d0d0 guibg=#121212 gui=none
 hi Visual       ctermfg=none ctermbg=232  cterm=none      guifg=NONE    guibg=#080808 gui=none
 hi Search       ctermfg=232  ctermbg=242  cterm=none      guifg=#080808 guibg=#666666 gui=none
 hi IncSearch    ctermfg=233  ctermbg=75   cterm=none      guifg=#121212 guibg=#5fafff gui=none
@@ -80,4 +85,3 @@ hi! link SpecialKey   NonText
 hi! link MoreMsg      ModeMsg
 hi! link Question     Todo
 hi! link SignColumn   Normal
-
