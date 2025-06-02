@@ -13,8 +13,10 @@ let g:colors_name = 'sceaduhelm'
 
 if exists('g:sceaduhelm_transparent_bg') && g:sceaduhelm_transparent_bg == 1
     hi Normal   ctermfg=252  ctermbg=none cterm=none      guifg=#d0d0d0 guibg=none    gui=none
+    hi LineNr   ctermfg=242  ctermbg=none cterm=none      guifg=#666666 guibg=none    gui=none
 else
     hi Normal   ctermfg=252  ctermbg=233  cterm=none      guifg=#d0d0d0 guibg=#121212 gui=none
+    hi LineNr   ctermfg=242  ctermbg=234  cterm=none      guifg=#666666 guibg=#1c1c1c gui=none
 endif
 
 " General colors
@@ -28,7 +30,6 @@ hi TabLine      ctermfg=232  ctermbg=242  cterm=none      guifg=#080808 guibg=#6
 hi TabLineSel   ctermfg=232  ctermbg=101  cterm=none      guifg=#080808 guibg=#87875f gui=none
 hi TabLineFill  ctermfg=252  ctermbg=239  cterm=none      guifg=#d0d0d0 guibg=#4e4e4e gui=none
 hi VertSplit    ctermfg=242  ctermbg=235  cterm=none      guifg=#666666 guibg=#262626 gui=none
-hi LineNr       ctermfg=242  ctermbg=234  cterm=none      guifg=#666666 guibg=#1c1c1c gui=none
 hi NonText      ctermfg=60   ctermbg=none cterm=none      guifg=#5f5f87 guibg=NONE    gui=none
 hi ErrorMsg     ctermfg=233  ctermbg=202  cterm=bold      guifg=#121212 guibg=#ff5f00 gui=bold
 hi ModeMsg      ctermfg=220  ctermbg=none cterm=bold      guifg=#ffdf00 guibg=NONE    gui=bold
